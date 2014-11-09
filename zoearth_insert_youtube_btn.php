@@ -11,7 +11,7 @@ class plgButtonZoearth_Insert_Youtube_Btn extends JPlugin
 		$lang->load('plg_zoearth_insert_youtube_btn',JPATH_ADMINISTRATOR);
 		?>
 		<script language="Javascript">
-		var showCodeInput = function (editorName){
+		var showYutubeInput = function (editorName){
 			jQuery.data(document.body,"editorName",editorName);
 			jQuery('#showyoutubeInsertModal').modal('show');			
 		};
@@ -69,7 +69,7 @@ class plgButtonZoearth_Insert_Youtube_Btn extends JPlugin
 		$button->title = JText::_('PLG_ZOEARTH_INSERT_YOUTUBE_BTN');
         $button->text = JText::_('PLG_ZOEARTH_INSERT_YOUTUBE_BTN');
         $button->name = 'comment';
-        $button->onclick = 'showCodeInput(\''.$name.'\');return false;';
+        $button->onclick = 'showYutubeInput(\''.$name.'\');return false;';
         $button->link = '#';
         return $button;
     }
