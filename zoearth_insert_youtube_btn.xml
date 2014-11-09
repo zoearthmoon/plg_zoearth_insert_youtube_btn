@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
+    <name>Zoearth Help Insert Youtube Btn</name>
+    <author>zoearthmoon@gmail.com</author>
+    <creationDate>2014-11-09</creationDate>
+    <copyright>Copyright (C) 2014 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU3</license>
+    <authorEmail>zoearthmoon@gmail.com</authorEmail>
+    <authorUrl>www.zoearthmoon.net</authorUrl>
+    <version>1.0</version>
+    <description>
+    <![CDATA[
+    <div style="text-align:left">
+        <blockquote>
+        <p>您好!這是zoearth 的編輯器外掛<h1>Zoearth Help Insert Youtube Btn</h1></p>
+        <small>主要功能為使用
+        <br>輸入youtube網址嵌入iframe
+		<br>input youtube link and insert iframe
+        <br>使用上有問題可以至<a href="http://www.zoearthmoon.net" target="_blank">www.zoearthmoon.net</a>詢問!感恩!
+        <br>There are questions you can use to <a href="http://www.zoearthmoon.net" target="_blank">www.zoearthmoon.net</a> ask! Thanks!
+        </small>
+        </blockquote>
+    </div>
+    ]]>
+    </description>
+    <files>
+        <filename plugin="zoearth_insert_youtube_btn">zoearth_insert_youtube_btn.php</filename>
+    </files>
+    <languages>
+        <language tag="zh-TW">zh-TW.plg_zoearth_insert_youtube_btn.ini</language>
+		<language tag="zh-CN">zh-CN.plg_zoearth_insert_youtube_btn.ini</language>
+		<language tag="ja-JP">ja-JP.plg_zoearth_insert_youtube_btn.ini</language>
+		<language tag="en-GB">en-GB.plg_zoearth_insert_youtube_btn.ini</language>
+    </languages>
+	<config>
+	</config>
+</extension>
