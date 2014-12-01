@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
-    <name>zoearth Insert Youtube Btn</name>
+    <name>plg_zoearth_insert_youtube_btn</name>
     <author>zoearthmoon@gmail.com</author>
     <creationDate>2014-11-09</creationDate>
     <copyright>Copyright (C) 2014 Open Source Matters. All rights reserved.</copyright>
