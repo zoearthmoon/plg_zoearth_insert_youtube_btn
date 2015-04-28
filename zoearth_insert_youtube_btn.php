@@ -26,9 +26,9 @@ class plgButtonZoearth_Insert_Youtube_Btn extends JPlugin
 				var youtubelink   = jQuery("#youtubelink").val().trim();
 				var youtubewidth  = parseInt(jQuery("#youtubewidth").val());
 				var youtubeheight = parseInt(jQuery("#youtubeheight").val());
-				var regExp = /v=([0-9a-zA-Z-_]*)/;
+				var regExp = /(\.be\/|v=)([0-9a-zA-Z-_]*)/;
 				var getV = youtubelink.match(regExp);
-				if (getV && getV[1])
+				if (getV && getV[2])
 				{
 					var html = '<iframe width="'+(youtubewidth > 0 ? youtubewidth:560)+'" height="'+(youtubeheight > 0 ? youtubeheight:315)+'" src="//www.youtube.com/embed/'+getV[1]+'" frameborder="0" allowfullscreen></iframe>';
 					jInsertEditorText(html, editorName);
